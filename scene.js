@@ -31,9 +31,8 @@ sphere.castShadow = true
 scene.add(sphere)
 
 
-var doorWidth = 1
-var doorHeight = 2
-
+const doorWidth = 1
+const doorHeight = 2
 const doorGeometry = new THREE.BoxGeometry(doorWidth, doorHeight, 0.1)
 const doorMaterial = new THREE.MeshStandardMaterial({ color: 0x8B4513 })
 const door = new THREE.Mesh(doorGeometry, doorMaterial)
